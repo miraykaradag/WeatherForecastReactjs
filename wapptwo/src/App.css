@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("pexels-splitshire-1526.jpg");
+  
+
+ }
+
+ .App{
+  background-image: url("pexels-splitshire-1526.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.search{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(0,0,0,0.2 );
+}
+
+input,button{
+  padding: 0.5rem 1rem;  
+  margin-left: 10px;
+  font-size: 1rem;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border-color: rgb(150, 150, 150,25);
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+
+
+  
+}
+
+button:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgb(39, 14, 33);
+}
+
+.result{
+  min-height: 25vh;
+  width: 25%;
+  align-items: center;
+  margin: auto;
+  border-bottom: 1px solid rgba(0,0,0,0.2 );
+
+}
+
+
+
+ul{
+  
+  list-style: none;
+  justify-content: space-between;
+  text-align: center;
+  
+
+
+}
+
+h2{
+  padding-top: 10px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+h1{
+  padding-top: 10px;
+text-align: center;}
+
+h3{
+  text-align: center;
+}
+
+
+
